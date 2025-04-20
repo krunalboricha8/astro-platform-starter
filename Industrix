@@ -1,0 +1,61 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IndustriX | Interface for Factories</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+    body { background: #f9fafb; color: #1f2937; }
+    header { background: #111827; color: white; padding: 2rem; text-align: center; }
+    nav { display: flex; justify-content: space-around; padding: 1rem; background: #1f2937; color: white; }
+    nav a { color: white; text-decoration: none; font-weight: 500; }
+    .hero { padding: 4rem 2rem; text-align: center; background: #e5e7eb; }
+    .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1.2rem; color: #4b5563; }
+    .services { padding: 4rem 2rem; background: white; }
+    .services h2 { text-align: center; margin-bottom: 2rem; }
+    .service-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
+    .service { background: #f3f4f6; padding: 1rem; border-radius: 0.5rem; text-align: center; }
+    .about, .contact { padding: 4rem 2rem; background: #f9fafb; }
+    footer { background: #1f2937; color: white; text-align: center; padding: 2rem; margin-top: 4rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>IndustriX</h1>
+    <p>The Interface for Factories – Powered by Shree Deepak Fibro Glass</p>
+  </header>  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>  <section class="hero">
+    <h1>20+ Industrial Services. One Platform.</h1>
+    <p>We connect factories with top-tier service vendors – fast, reliable, and affordable.</p>
+  </section>  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service">FRP Lining & Repairs</div>
+      <div class="service">Industrial Painting</div>
+      <div class="service">Epoxy Flooring</div>
+      <div class="service">Civil Maintenance</div>
+      <div class="service">Machinery Shifting</div>
+      <div class="service">Fabrication Works</div>
+      <div class="service">Pipe Fittings</div>
+      <div class="service">Electrical Works</div>
+      <div class="service">Plumbing</div>
+      <div class="service">Safety Equipment Supply</div>
+    </div>
+  </section>  <section class="about" id="about">
+    <h2>About IndustriX</h2>
+    <p>IndustriX is India’s first industrial service interface platform designed to streamline factory operations. From lining and repair to fabrication and automation, we bring the best vendors and experts under one roof, powered by the trust of Shree Deepak Fibro Glass.</p>
+  </section>  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@industrix.in</p>
+    <p>Phone: +91 98765 43210</p>
+    <p>Location: Ahmedabad, Gujarat</p>
+  </section>  <footer>
+    <p>&copy; 2025 IndustriX. All rights reserved.</p>
+  </footer>
+</body>
+</html>
